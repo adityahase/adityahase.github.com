@@ -1,1 +1,108 @@
-# adityahase.github.com
+# Self Assessment
+## TL;DR
+This is no time for caution.
+
+## Frappe Cloud
+#### An absolute personal disaster. $100MM technology in hand and I am just fucking around.
+I can't claim credit for growth and revenue or lack thereof, but here's the stuff that I managed to get done.
+
+### Custom Apps
+I had to implement this feature twice (the rewrite came with docker) because we had to roll it out "quickly" and getting ready for docker took too long, the product just wasn't viable without apps.
+
+This seems to be a hit feature. One of the partners recently even hit a technical (virtual) limit with docker, 50+ custom apps on a bench.
+
+### Docker
+Got Docker working in production, well, working is a strong word, but it should still count. This has not been easy though, there have been frequent (some repetitive) issues. But every incident narrows the gap between the mental models and the actual system.
+
+Containers will set us free, might not be Docker, might not even be Linux containers, but they will. Running containers on bare metal is the way to go. I'm willing to experiment (Read: run once locally, once on staging and then directly move to production) with everything to make this work.
+
+Yes, stability is essential for production but so is expertise, we can build it with time, or with experiments, I choose the latter. This is an absolutely reckless way to approach production and yet, given the choice any number of times I wouldn't choose differently.
+
+> You want to understand how something works, run it in production.
+
+### Local Environment
+The entire Frappe Cloud infrastructure can be replicated on a single Linux workstation with virtual machines with a couple of commands. No need to "assume" that a component actually works.
+
+### Observability/Monitoring
+Tried rolling out a handmade system powered by the Framework but then monitoring this system became yet another task.
+
+Got Prometheus working to collect all the metrics that can and should be collected. Sometimes this is as easy as editing a configuration file. Sometimes requires compiling NGINX from the source. Using "right tool for the right job", or whatever gets up and running the quickest.
+
+### Replication/Failover
+Application and Database servers now run on different physical machines, this makes replication a little bit easy. Both Application (RSync) and Database (Binlog) servers are replicated in active-passive mode, with a one-click failover process. This feels like a joke because a human has to be involved for no reason whatsoever.
+
+Vendor-specific features (Object Storage, Block Storage, etc) would make this really easy but would make life difficult on bare metal.
+
+Also, there are no automatic/semi-automatic/manual failover/recovery methods for disasters that span across multiple machines, networks, or even worse, a whole Datacenter.
+
+### Uptime
+When you put someone without empathy in charge of uptime, you deserve whatever comes your way.
+
+Most of the issues causing incidents aren't systemic problems, but are load-balancing issues and should be solved automatically as long as infrastructure capacity keeps up with the traffic.
+
+Even with a small number of servers, these have become a major source of toil.
+
+### Automation
+Minor automation that you might not even know exist
+- SSL Renewals
+- Automated Deploys (Git-Push-to-Deploy)
+- Site updates
+
+### Documentation
+Total failure here. All the knowledge is only in my head.
+
+
+P.S: Depending on when you read this we might already have switched new signups on erpnext.com to Frappe Cloud, although, @netchampfaris did a lot of the work.
+
+## What now?
+Lots of things to create a first-class platform experience
+- Infrastructure
+    - Add Datacenters in 2 more continents (US, Africa)
+    - Run our own Remote Storage
+    - Run our own DNS
+    - Run non-Frappe software. Redash, Nextcloud.
+    - Pluggable Infrastructure (Create clusters directly on DO/GCP etc)
+    - Move Frappe Developer instances to Ares
+- Reliability
+    - Automatic application server failovers (Backbone-style)
+    - Automated database server failovers
+    - Prepare recovery plan for Datacenter failure
+- Security
+    - OS level audits to detect intrusions and privilege escalations
+- Misc
+    - Remote DB/Shell access
+    - Build/Deploy pipelines for apps and sites (Test/Staging/Production)
+    - Run Postgres in production
+    - Centralized Logging
+    - Remove Code Access for Developers
+
+Go all the way, Virtual machines, Co-location, whatever it takes.
+
+## Team
+As an underachiever from the beginning, I failed to be a pacesetter e.g. taking 6 months to deploy an MVP. On top of that my occasional nonchalance triggers astounding incoherence within the team.
+
+I can't blame anyone else as I am the source of all these problems. I am trying to fix my own performance issues, if it works then the rest would hopefully fall in place.
+
+I don't have anything to ask of my teammates. If I can't do this alone, I can't do it with 5 more engineers either.
+
+## Strategy
+This is extremely overrated. How you do anything is how you do everything.
+
+
+## Miscellaneous
+### Security
+Like most things, efforts here though significant, were one-off (One week, 15 vulnerabilities). I didn't participate in the process in any way after this.
+
+A public-facing Frappe instance is a huge liability. One thing for sure though, I don't trust Frappe Framework one bit with the security. How we sell it with a straight face is beyond me.
+
+## Motivation
+I don't fear insolvency, unemployment, or public humiliation. I believe that the promises of glory, fame, and prosperity should be left to the lesser minds. So most externalities only motivate me temporarily.
+
+However, recently a stark realization has started to hit me, that we are at war with two of the most democratic institutions, Time and Entropy. Perhaps you can never win, you can at least try to lose more slowly, build stuff that lasts.
+
+## Compensation
+What do I deserve? No idea. Maybe 0%? 5%? 10%? 100%? who cares? it's not my problem. I am already getting more salary (8.25L) than I can ever figure out what to do with. It just tells me about my ability to make someone else some money. I don't care for it. Besides, if I wanted money I'd go work for a hedge fund. But, there has to be some cost, though notional to the company.
+
+I neither know how much value my work has created nor know how much it will create. I will not ask for any increase in cash compensation, there should enough to go around for those who do need it.
+
+I ask for an all-or-nothing deal. I'll take heavily discounted options at one condition that **If I fail to deliver a kickass product by next April, my options given this year be voided**. That's a carrot and a stick.
