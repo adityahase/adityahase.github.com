@@ -103,6 +103,6 @@ However, recently a stark realization has started to hit me, that we are at war 
 ## Compensation
 What do I deserve? No idea. Maybe 0%? 5%? 10%? 100%? who cares? it's not my problem. I am already getting more salary (8.25L) than I can ever figure out what to do with. It just tells me about my ability to make someone else some money. I don't care for it. Besides, if I wanted money I'd go work for a hedge fund. But, there has to be some cost, though notional to the company.
 
-I neither know how much value my work has created nor know how much it will create. I will not ask for any increase in cash compensation, there should enough to go around for those who do need it.
+I neither know how much value my work has created nor know how much it will create. I will not ask for any increase in cash compensation, there should be enough to go around for those who do need it.
 
 I ask for an all-or-nothing deal. I'll take heavily discounted options at one condition that **If I fail to deliver a kickass product by next April, my options given this year be voided**. That's a carrot and a stick.
