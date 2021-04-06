@@ -44,8 +44,8 @@ Even with a small number of servers, these have become a major source of toil.
 
 ### Automation
 Minor automation that you might not even know exist
-- SSL Renewals
-- Automated Deploys (Git-Push-to-Deploy)
+- TLS renewals
+- Automated deploys (Git-Push-to-Deploy)
 - Site updates
 
 ### Documentation
@@ -57,12 +57,12 @@ P.S: Depending on when you read this we might already have switched new signups 
 ## What now?
 Lots of things to create a first-class platform experience
 - Infrastructure
-    - Add Datacenters in 2 more continents (US, Africa)
-    - Run our own Remote Storage
-    - Run our own DNS
+    - Add datacenters in 2 more continents (US, Africa)
+    - Run our own remote storage service
+    - Run our own DNS servers
     - Run non-Frappe software. Redash, Nextcloud.
-    - Pluggable Infrastructure (Create clusters directly on DO/GCP etc)
-    - Move Frappe Developer instances to Ares
+    - Pluggable infrastructure (Create clusters directly on DO/GCP etc)
+    - Move Frappe developer instances to Ares
 - Reliability
     - Automated application server failovers (Backbone-style)
     - Automated database server failovers
@@ -73,8 +73,8 @@ Lots of things to create a first-class platform experience
     - Remote DB/Shell access
     - Build/Deploy pipelines for apps and sites (Test/Staging/Production)
     - Run Postgres in production
-    - Centralized Logging
-    - Remote Code Access for Developers
+    - Centralized logging
+    - Remote code access for developers
 
 Go all the way, Virtual machines, Co-location, whatever it takes.
 
