@@ -1,5 +1,5 @@
-# Self Assessment
-## TL;DR
+# Self Assessment 2020 - 21
+### TL;DR
 This is no time for caution.
 
 ## Frappe Cloud
@@ -74,7 +74,7 @@ Lots of things to create a first-class platform experience
     - Build/Deploy pipelines for apps and sites (Test/Staging/Production)
     - Run Postgres in production
     - Centralized Logging
-    - Remove Code Access for Developers
+    - Remote Code Access for Developers
 
 Go all the way, Virtual machines, Co-location, whatever it takes.
 
@@ -83,7 +83,7 @@ As an underachiever from the beginning, I failed to be a pacesetter e.g. taking 
 
 I can't blame anyone else as I am the source of all these problems. I am trying to fix my own performance issues, if it works then the rest would hopefully fall in place.
 
-I don't have anything to ask of my teammates. If I can't do this alone, I can't do it with 5 more engineers either.
+I don't have anything more to ask of my teammates. Most of the problem are bottlenecked at my end, and I have to solve them on my own, if I can't do this alone, I can't do it with 5 more engineers either.
 
 ## Strategy
 This is extremely overrated. How you do anything is how you do everything.
@@ -101,7 +101,7 @@ I don't fear insolvency, unemployment, or public humiliation. I believe that the
 However, recently a stark realization has started to hit me, that we are at war with two of the most democratic institutions, Time and Entropy. Perhaps you can never win, you can at least try to lose more slowly, build stuff that lasts.
 
 ## Compensation
-What do I deserve? No idea. Maybe 0%? 5%? 10%? 100%? who cares? it's not my problem. I am already getting more salary (8.25L) than I can ever figure out what to do with. It just tells me about my ability to make someone else some money. I don't care for it. Besides, if I wanted money I'd go work for a hedge fund. But, there has to be some cost, though notional to the company.
+What do I deserve? No idea. Maybe 0%? 5%? 10%? 100%? who cares? it's not my problem. I am already getting more salary (8.25 Lakh) than I can ever figure out what to do with. It just tells me about my ability to make someone else some money. I don't care for it. Besides, if I wanted money I'd go work for a hedge fund. But, there has to be some cost, though notional to the company.
 
 I neither know how much value my work has created nor know how much it will create. I will not ask for any increase in cash compensation, there should be enough to go around for those who do need it.
 
