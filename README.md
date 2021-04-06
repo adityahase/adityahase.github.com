@@ -64,7 +64,7 @@ Lots of things to create a first-class platform experience
     - Pluggable Infrastructure (Create clusters directly on DO/GCP etc)
     - Move Frappe Developer instances to Ares
 - Reliability
-    - Automatic application server failovers (Backbone-style)
+    - Automated application server failovers (Backbone-style)
     - Automated database server failovers
     - Prepare recovery plan for Datacenter failure
 - Security
