@@ -105,4 +105,6 @@ What do I deserve? No idea. Maybe 0%? 5%? 10%? 100%? who cares? it's not my prob
 
 I neither know how much value my work has created nor know how much it will create. I will not ask for any increase in cash compensation, there should be enough to go around for those who do need it.
 
-I ask for an all-or-nothing deal. I'll take heavily discounted options at one condition that **If I fail to deliver a kickass product by next April, my options given this year be voided**. That's a carrot and a stick.
+### Proposal
+   - **Cash**: **8 Lakh**
+   - **Options**: **~4 Lakh** (**27 options** at 15k/option)
