@@ -53,11 +53,11 @@ One day our quixotic pursuits in truth will come to an end and I'll crash and bu
 
 ## Compensation
 
-I drove Cloud from 30 L to 1.4 Cr. Well over 4x. I propose 10 L Cash + 30 L in Options (at 25k/Option, 120 Options i.e 0.45%).
+I drove Cloud from 30 L to 1.4 Cr. Well over 4x. I propose **10 L Cash** + **30 L in Options** (at 25k/Option, 120 Options i.e **0.45%**).
 
 If this doesn't seem fair then I can opt for an arbitrarily long vesting period, e.g. 6,8,10 years, that doesn't matter, since I've promised to forever stay with Frappe.
 
-One more premium ask. I'm requesting the "Founder - Frappe Cloud" title.
+One more premium ask. I'm requesting the **Founder - Frappe Cloud** title.
 
 ## Now what?
 - We're growing at 10-15% monthly, Capitalize on this momentum and deliver 5 Cr Revenue on 2022-23.
